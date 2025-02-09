@@ -12,7 +12,7 @@ c = 5 + 4j
 print(c.real)
 print(c.imag)
 print(a.real)
-print(a.imag)
+print(d.real)
 
 
 
