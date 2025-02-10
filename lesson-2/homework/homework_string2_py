@@ -1,0 +1,41 @@
+def isPalindrome(s):
+    return s==s[::-1]
+
+s="yaxshimisan"
+ans=isPalindrome(s)
+if ans:
+    print("yes")
+else:
+    print("no")
+    a="Uzbekistan is a great country"
+    print(a.lower())
+    vowels="aeuioEUIOA"
+    consonants="qwrtypsdfghjklzxcvbnm"
+    count=sum(a.count(consonant) for consonant in consonants)
+    print(count)
+    a="I lav my mothrland"
+b=a.replace("lav", "love").replace("mothrland", "motherland")
+print(b)
+p="I love apples"
+d=p.replace("apples", "bananas")
+print(d)
+my_str="Hello World"
+print(my_str[:1])
+print(my_str[-1:])
+a="Hello World"
+print(a[::-1])
+b="you are amazing"
+print(len(b))
+def count_words(sentence):
+    count=1
+
+    for character in sentence:
+        if char =='':
+            count +=1
+
+        
+            return count
+        sentence="Programming requires a lot of memory usage"
+        print("Number of words", count_words(sentence))
+
+    
