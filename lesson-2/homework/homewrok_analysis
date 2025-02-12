@@ -1,0 +1,9 @@
+word="apple is delicious"
+word_reverse=word[::-1]
+print(word_reverse)
+print(word==word_reverse)
+matn='Uzbekistan is big country'
+
+print(matn.count('t'))
+print(matn.replace('big','small'))
+
